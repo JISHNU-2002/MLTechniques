@@ -1,5 +1,25 @@
 # Machine Learning Projects
 
+### 1. **Supervised Learning**
+- **Regression**:
+    - **Linear Regression**
+    - **Multi-variable Regression**
+- **Classification**:
+    - **Logistic Regression**
+    - **K-Nearest Neighbors (KNN)**
+    - **Naive Bayes**
+    - **Decision Tree**
+### 2. **Unsupervised Learning**
+- **Clustering**:
+    - **K-Means**
+- **Dimensionality Reduction**:
+    - **Principal Component Analysis (PCA)**
+    - **Other Dimensionality Reduction Techniques** (e.g., t-SNE, LDA)
+
+### 3. **Other Techniques**
+- **Ensemble Methods** : Can be used for both regression and classification tasks, depending on the specific algorithm.
+- **Neural Networks** : Can be used for both regression and classification, depending on the architecture and output configuration.
+
 ## Regression
 
 Regression analysis is a set of statistical methods used for estimating the relationships between a dependent variable (often called the outcome or target variable) and one or more independent variables (often called predictors or features). The goal of regression is to model the relationship between these variables so that we can make predictions or understand the underlying patterns.

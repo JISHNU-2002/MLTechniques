@@ -11,9 +11,23 @@
   
 2. **Calculate Distance**  
    - To find the nearest neighbors, KNN calculates the distance between the data point in question and all the points in the training data
+   
      - **Euclidean distance :** The most common metric, which is the straight-line distance between two points in Euclidean space
+
+	      $d(\mathbf{x}_i, \mathbf{x}_j) = \sqrt{\sum_{k=1}^{n} (x_{ik} - x_{jk})^2}$
+	      
      - **Manhattan distance :** The sum of the absolute differences between coordinates
+
+		 $d(\mathbf{x}_i, \mathbf{x}_j) = \sum_{k=1}^{n} |x_{ik} - x_{jk}|$
+		
      - **Minkowski distance :** A generalization that includes both Euclidean and Manhattan distances
+		 
+		 $d(\mathbf{x}_i, \mathbf{x}_j) = \left( \sum_{k=1}^{n} |x_{ik} - x_{jk}|^p \right)^{\frac{1}{p}}$
+		 
+	- **Chebyshev Distance** : A special case of the Minkowski distance 
+		
+		 $d(\mathbf{x}_i, \mathbf{x}_j) = \max_{k=1}^{n} |x_{ik} - x_{jk}|$
+
 
 3. **Find Nearest Neighbors**  
    - Once the distances are calculated, KNN identifies the k closest data points (the k-nearest neighbors)
